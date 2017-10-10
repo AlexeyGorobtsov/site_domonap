@@ -194,13 +194,12 @@
     font-size: 16px;
 }
 .switch ol > li {
-    border: 1px solid gray;
-    border-radius: 50%;
-    background: rgb(255, 255, 255);
+    color: #bac0c5;
+    font-size: 18px;
     height: 50px;
-    width: 50px;
     margin: 0 30px;
     justify-content: center;
+    width: 50px;
 }
 
 .switch ol > li span {
@@ -208,11 +207,10 @@
     top: 100px;
 }
 
-.switch .active ol > li:hover {
-    border: 1px solid gray;
-    background: rgb(175, 175, 175);
+/*.switch .active ol > li:hover {
     cursor: pointer;
-}
+    color: #333333;
+}*/
 
 
 .switch ol > li span {
@@ -224,9 +222,8 @@
     text-indent: 0px;
 }
 
-
 #carousel-adaptiv{
-    top: 50px!important;
+    top: 50px;
 }
 .row.adaptiv{
     height:640px;
@@ -265,7 +262,6 @@
 
 .switch li.ident-3:hover {
     background: url('../images/our_work/iphone_hover.png') no-repeat;
-
     background-position: center;
 
 }
@@ -300,7 +296,6 @@
 
 .switch li.ident-2:hover {
     background: url('../images/our_work/ipad_hover.png') no-repeat;
-
     background-position: center;
 
 }
@@ -334,7 +329,6 @@
 
 .switch li.ident-1:hover {
     background: url('../images/our_work/PC_hover.png') no-repeat;
-
     background-position: center;
 
 }
@@ -349,11 +343,13 @@
 
 .switch li.ident-1:hover > span {
     border-bottom: 2px solid #fbd302;
+    color: #333333;
 
 }
 
 .switch li.ident-1.active > span {
-    border-bottom: 2px solid #fbd302
+    border-bottom: 2px solid #fbd302;
+    color: #333333;
 }
 
 
