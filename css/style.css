@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext');
+html, body {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+section {
+	border-top: 1px #000 solid;
+	margin-bottom: 20px;
+}
+
+section h2 {
+	font-size: 30px;
+    text-align: center;	
+	
+}
+
+
+section h3 {
+	font-size: 16px;
+    text-align: center;	
+	
+}
+
+section .section_content {
+	
+	
+}
+
+#welcome {
+	height: 100vh;
+    background: url("../images/welcome.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+}
+
+
+
+#welcome .welcome_container {
+    width:760px; /*Ширина блока*/
+    height:200px; /*Высота блока*/
+    margin:0 auto;
+    overflow:visible;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-400px; /*Смещаем блок на половину всей ширины влево*/
+    margin-top:-100px; /*Смещаем блок на половину высоты вверх*/
+
+}
+#welcome .welcome_container .welcome_body {
+	height:100%;	
+}
+#welcome .welcome_container .welcome_body .welcome_in_body {
+	height:100%;
+}
+#welcome .welcome_container .welcome_body .welcome_in_body .welcome_content {
+    padding-top:0px;
+    height:200px;	
+}
+
+#welcome .welcome_container .welcome_body .welcome_in_body .welcome_content .welcome_main {
+	font-size: 60px;
+}
+
+#welcome .welcome_container .welcome_body .welcome_in_body .welcome_content .welcome_desc {
+	font-size: 24px;
+	
+}
+
+#welcome {
+	
+}
+#welcome p {
+	
+}
+.service_item {
+	width: 100%;
+	min-height: 165px;
+	margin-bottom: 20px;
+}
+.service_item .service_image {
+	float: left;
+	width: 20%;
+}
+.service_item .service_image img {
+	width: 100%;
+}
+
+.service_item .service_description {
+	float: left;
+	width: 70%;
+	margin-left: 20px;
+}
+
+.service_item .service_description .service_title {
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-top: 7px;
+	height: 20px;
+	
+}
+
+.service_item .service_description .service_text {
+	font-size: 14px;
+	min-height: 80px;
+	margin-top: 20px;
+	
+}
+.service_item .service_description .service_links {
+	
+}
+
+.service_item .service_description .service_links .service_order {
+	float: left;
+}
+.service_item .service_description .service_links .service_order a {
+	
+}
+.service_item .service_description .service_links .service_more {
+	float: left;
+}
+
+.service_item .service_description .service_links .service_more a {
+	
+}
+
+.call_us {
+	border-top: 1px #000 solid;
+	margin-top: 20px;
+	text-align: center;
+	
+}
+.call_us .call_us_text {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+
+.package_item {
+	
+}
+
+
+.package_item .package_header {
+	width: 100%;
+	height: 65px;
+	background: #d7d7d7;
+
+	
+}
+
+.package_item .package_header .package_name {
+	font-size: 24px;
+	text-align: center;
+	padding: 20px 0;
+	
+}
+.package_item .package_body {
+	padding: 30px 20px 20px 20px;
+	height: 250px;
+	background: #f2f2f2;
+	
+}
+
+.package_item .package_body .package_text {
+	
+}
+.package_item .package_body .package_text ul {
+	
+}
+.package_item .package_body .package_text ul li {
+	
+}
+
+.package_item .package_full_button {
+	
+}
+
+.package_item .package_full_button a {
+
+}
+
+
+
+
+
+
+
+
+
+
+.package_item .package_order {
+	
+}
+
+.package_item .package_order a {
+	display: block;
+	width: 100%;
+	background: rgba(29, 93, 152, 1);
+	height: 65px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 16px;	
+}
+
+
+
+
+#contacts {
+
+}
+#contacts .domonap_map {
+		width: 100%;
+	height: 605px;
+	border-bottom: 1px #000 solid;
+}
+#contacts .contacts_board {
+
+	
+}
+#contacts .contacts_board .contacts_board_body {
+	position: relative;
+	margin-top: -500px;
+	
+	border: 1px #000 solid;
+	
+	height: 300px;
+	background: #f2f2f2;
+	padding: 25px 0px;
+
+}
+#contacts .contacts_board .contacts_board_body .contacts_address {
+	padding: 0 30px;
+	height: 50%;
+}
+#how_to_get_there {
+	display: block;
+	width: 100%;
+	background: #fff;
+	height: 56px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 17px 0;
+	font-size: 16px;
+	border: 1px #000 solid;
+	
+}
+#contacts .contacts_board .contacts_board_body .contacts_phone {
+	padding: 25px 30px 0 30px;	
+}
+
+#contacts .contacts_board .contacts_board_body .text {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.contact_call_button {
+	display: block;
+	width: 100%;
+	background: rgba(29, 93, 152, 1);
+	height: 56px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 17px 0;
+	font-size: 16px;
+	
+}
+.contact_call_button_2 {
+	display: inline;
+
+	background: rgba(29, 93, 152, 1);
+	height: 56px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 17px 20px;
+	font-size: 16px;
+	
+}
+.service_order_button {
+	display: inline-block;
+	width: 100px;
+	background: #fff;
+	height: 40px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 16px;
+	border: 1px #000 solid;
+	
+}
+.service_more_link {
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 10px;
+	color: #000;
+	text-decoration: underline;
+}
+
+#adaptation {
+	
+}
+
+#adaptation .text {
+	text-align: center;
+}
+
+footer {
+	
+	
+	
+	height: 58px;
+	padding-top: 20px;
+	margin-bottom: 40px;
+
+}
+footer .footer_soc {
+	text-align: right;
+}
+
+
+.oreder_button {
+	
+	
+	
+}
+
+
+.c_line {
+	height: 1px;
+	border-top: 1px #000 solid;
+	
+}
+
+@media only screen and (max-width: 768px) {
+.service_item .service_image {
+	float: none;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	width: 120px;
+}
+	.coda-slider-wrapper .coda-slider {
+		/******************************************************
+        *
+        * Inner wrapper styles
+        *
+        *******************************************************/
+		background: #f2f2f2;
+		/******************************************************
+        *
+        * Width of the container. Typically you will want to
+        * match this with the width of the panel as well.
+        *
+        *******************************************************/
+		width: 700px;
+	}
+}
+

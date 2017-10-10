@@ -1,0 +1,468 @@
+/*==================================FONTS===============================*/
+
+.our_work{
+    height: 800px;
+}
+.our_work h2{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+.our_work p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+.stages h4{
+    font-weight: 500;
+    font-size: 24px;
+}
+.stages p{
+    font-weight: 300;
+    text-align: justify;
+}
+.hr {
+    margin: 0px;
+    border-top: 1px solid #e4ebf2;
+}
+/*=============================CAROUSEL=========================*/
+.carousel.fade {
+    opacity: 1;
+    top: 250px;
+}
+.carousel.fade .item{
+    opacity: 0;
+    transition: 0.5s;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel.fade .item.active{
+    opacity: 1;
+    position: relative;
+}
+.carousel-indicators-wrap .carousel-indicators{
+    position: absolute;
+    top: -90px;
+    margin: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.carousel-indicators-wrap span{
+    font-weight: 400;
+    font-size: 14px;
+}
+.carousel-indicators-wrap ol > li span {
+    position: absolute;
+    top: 55px;
+}
+.carousel-indicators-wrap ol > li {
+    background: url('../images/our_work/normal_step2.png') no-repeat;
+    color: #b7bdc2;
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    margin: 0 80px;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    height: 90px;
+}
+
+/* ITEM 1 */
+
+.carousel-indicators-wrap ol > li.item-1{
+    background: url('../images/our_work/normal_step1.png') no-repeat;
+}
+
+.carousel-indicators-wrap ol > li.item-1:hover {
+    background: url('../images/our_work/hover_step1.png') no-repeat;
+    border-bottom: 2px solid #fbd302;
+    color: #333333;
+}
+.carousel-indicators-wrap ol > li.item-1.active {
+    background: url('../images/our_work/activ_step1.png') no-repeat;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #fbd302;
+    height: 90px;
+    margin: 0 80px;
+    width: 52px;
+}
+
+.carousel-indicators-wrap ol > li.item-2{
+    background: url('../images/our_work/normal_step2.png') no-repeat;
+}
+.carousel-indicators-wrap ol > li.item-2:hover {
+    background: url('../images/our_work/hover_step2.png') no-repeat;
+    border-bottom: 2px solid #fbd302;
+    color: #333333;
+}
+.carousel-indicators-wrap ol > li.item-2.active {
+    background: url('../images/our_work/activ_step2.png') no-repeat;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #fbd302;
+    height: 90px;
+    margin: 0 80px;
+    width: 52px;
+}
+
+/* ITEM 3 */
+
+.carousel-indicators-wrap ol > li.item-3{
+    background: url('../images/our_work/normal_step3.png') no-repeat;
+}
+
+.carousel-indicators-wrap ol > li.item-3:hover {
+    background: url('../images/our_work/hover_step3.png') no-repeat;
+    border-bottom: 2px solid #fbd302;
+    color: #333333;
+}
+.carousel-indicators-wrap ol > li.item-3.active {
+    background: url('../images/our_work/activ_step3.png') no-repeat;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #fbd302;
+    height: 90px;
+    margin: 0 80px;
+    width: 52px;
+}
+/* ITEM 4 */
+
+.carousel-indicators-wrap ol > li.item-4{
+    background: url('../images/our_work/normal_step4.png') no-repeat;
+}
+
+.carousel-indicators-wrap ol > li.item-4:hover {
+    background: url('../images/our_work/hover_step4.png') no-repeat;
+    border-bottom: 2px solid #fbd302;
+    color: #333333;
+}
+
+.carousel-indicators-wrap ol > li.item-4.active {
+    background: url('../images/our_work/activ_step4.png') no-repeat;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #fbd302;
+    height: 90px;
+    margin: 0 80px;
+    width: 52px;
+}
+
+/* ITEM 5 */
+
+.carousel-indicators-wrap ol > li.item-5{
+    background: url('../images/our_work/normal_step5.png') no-repeat;
+}
+
+.carousel-indicators-wrap ol > li.item-5:hover {
+    background: url('../images/our_work/hover_step5.png') no-repeat;
+    border-bottom: 2px solid #fbd302;
+    color: #333333;
+}
+
+.carousel-indicators-wrap ol > li.item-5.active {
+    background: url('../images/our_work/activ_step5.png') no-repeat;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #fbd302;
+    height: 90px;
+    margin: 0 80px;
+    width: 52px;
+}
+
+
+
+/*===========================================adaptive=================================*/
+.carousel.slide{
+    height: 400px;
+}
+.adaptive_design h2{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 10px;
+}
+.adaptive_design p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+}
+.switch ol > li {
+    border: 1px solid gray;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    margin: 0 30px;
+    justify-content: center;
+}
+
+.switch ol > li span {
+    position: absolute;
+    top: 100px;
+}
+
+.switch .active ol > li:hover {
+    border: 1px solid gray;
+    background: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+
+.switch ol > li span {
+    padding-bottom: 25px;
+}
+
+.carousel-indicators li{
+    bottom: -90px;
+    text-indent: 0px;
+}
+
+
+#carousel-adaptiv{
+    top: 50px!important;
+}
+.row.adaptiv{
+    height:640px;
+}
+
+.carousel-work{
+    height: 400px;
+}
+
+.switch li {
+    height: 90px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+
+
+.switch .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    bottom: -120px;
+}
+
+
+.switch li.ident-3 {
+    background: url('../images/our_work/iphone_normal.png') no-repeat;
+    border: none;
+    border-radius: 0;
+    height: 90px;
+    background-position: center;
+    width: 80px;
+}
+
+.switch li.ident-3:hover {
+    background: url('../images/our_work/iphone_hover.png') no-repeat;
+
+    background-position: center;
+
+}
+
+.switch li.ident-3.active {
+    background: url('../images/our_work/iphone_active.png') no-repeat;
+    background-position: center;
+    width: 80px;
+    margin: 0 30px 0 30px;
+
+}
+
+.switch li.ident-3:hover > span {
+    border-bottom: 2px solid #fbd302;
+
+}
+
+.switch li.ident-3.active > span {
+    border-bottom: 2px solid #fbd302
+}
+
+/*====================*/
+
+.switch li.ident-2 {
+    background: url('../images/our_work/ipad_normal.png') no-repeat;
+    border: none;
+    border-radius: 0;
+    height: 90px;
+    background-position: center;
+    width: 80px;
+}
+
+.switch li.ident-2:hover {
+    background: url('../images/our_work/ipad_hover.png') no-repeat;
+
+    background-position: center;
+
+}
+
+.switch li.ident-2.active {
+    background: url('../images/our_work/Ipad_activ.png') no-repeat;
+    background-position: center;
+    width: 80px;
+    margin: 0 30px 0 30px;
+
+}
+
+.switch li.ident-2:hover > span {
+    border-bottom: 2px solid #fbd302;
+
+}
+
+.switch li.ident-2.active > span {
+    border-bottom: 2px solid #fbd302
+}
+/*===============================================*/
+
+.switch li.ident-1 {
+    background: url('../images/our_work/PC_normal.png') no-repeat;
+    border: none;
+    border-radius: 0;
+    height: 90px;
+    background-position: center;
+    width: 80px;
+}
+
+.switch li.ident-1:hover {
+    background: url('../images/our_work/PC_hover.png') no-repeat;
+
+    background-position: center;
+
+}
+
+.switch li.ident-1.active {
+    background: url('../images/our_work/PC_activ.png') no-repeat;
+    background-position: center;
+    width: 80px;
+    margin: 0 30px 0 30px;
+
+}
+
+.switch li.ident-1:hover > span {
+    border-bottom: 2px solid #fbd302;
+
+}
+
+.switch li.ident-1.active > span {
+    border-bottom: 2px solid #fbd302
+}
+
+
+/*================================macbook===================================*/
+.screen:before {
+    content: "";
+    display: block;
+    /* for aspect ratio ~67:100 */
+    padding-top: 67%;
+}
+
+
+.viewport {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: -25px;
+    margin: 5.1% -9.2%;
+    background: #333;
+}
+
+
+/* Screenshot Hover Scroll Additions
+-------------------------------------------------------------- */
+
+.macbook .viewport {
+    transition: background-position 3s ease;
+    background-position: 0 0;
+    background-size: 100% auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.macbook:hover .viewport {
+    background-position: 0 100%;
+}
+
+
+/*===========================Ipad===================*/
+.screen-ipad:before {
+    content: "";
+    display: block;
+    /* for aspect ratio ~67:100 */
+    padding-top: 80%;
+
+}
+
+.viewport-ipad {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 12% 26.2%;
+    background: #333;
+}
+
+
+/* Screenshot Hover Scroll Additions
+-------------------------------------------------------------- */
+
+.ipad .viewport-ipad {
+    transition: background-position 1s ease;
+    background-position: 0 0;
+    background-size: 100% auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ipad:hover .viewport-ipad {
+    background-position: 0 100%;
+}
+
+
+/*=================================iphone==========================================*/
+
+.screen-iphone:before {
+    content: "";
+    display: block;
+    /* for aspect ratio ~67:100 */
+    padding-top: 80%;
+
+}
+
+.viewport-iphone {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: -14px;
+    margin: 11.9% 34.2%;
+    background: #333;
+}
+
+
+/* Screenshot Hover Scroll Additions
+-------------------------------------------------------------- */
+
+.iphone .viewport-iphone {
+    transition: background-position 1s ease;
+    background-position: 0 0;
+    background-size: 100% auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.iphone:hover .viewport-iphone {
+    background-position: 0 100%;
+}
+
