@@ -12,22 +12,30 @@
     font-size: 16px;
     padding-top: 10px;
 }
-.stages h4{
+.stages > h3{
     font-weight: 500;
     font-size: 24px;
-}
-.stages p{
-    font-weight: 300;
     text-align: justify;
 }
-.hr {
+.stages > h3 > span {
+    font-weight: 300;
+    font-size: 24px;
+}
+.stages > p{
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+
+}
+.carousel-indicators-wrap {
+    border-bottom: 1px solid #e4ebf2;
+    height: 60px;
     margin: 0px;
-    border-top: 1px solid #e4ebf2;
 }
 /*=============================CAROUSEL=========================*/
 .carousel.fade {
     opacity: 1;
-    top: 250px;
+    top: 210px;
 }
 .carousel.fade .item{
     opacity: 0;
@@ -42,9 +50,10 @@
     opacity: 1;
     position: relative;
 }
+
 .carousel-indicators-wrap .carousel-indicators{
     position: absolute;
-    top: -90px;
+    top: -50px;
     margin: 0;
     left: 0;
     display: flex;
@@ -58,19 +67,33 @@
 }
 .carousel-indicators-wrap ol > li span {
     position: absolute;
-    top: 55px;
+    top: 65px;
+    text-transform: uppercase;
+
+}
+.carousel-indicators-wrap ol > li.active span {
+    padding-bottom: 23px;
+    border-bottom: 2px solid #fbd302;
+}
+.carousel-indicators-wrap ol > li:hover span {
+    padding-bottom: 23px;
+    border-bottom: 2px solid #fbd302;
+    color: #333333;
+}
+.carousel-indicators-wrap ol > li.active {
+    color: #333333;
 }
 .carousel-indicators-wrap ol > li {
-    background: url('../images/our_work/normal_step2.png') no-repeat;
+    border-radius: 0;
+    border: none;
     color: #b7bdc2;
-    width: 52px;
     display: flex;
+    height: 90px;
     justify-content: center;
     margin: 0 80px;
     outline: none;
-    border: none;
-    border-radius: 0;
-    height: 90px;
+    transition: background .3s;
+    width: 52px;
 }
 
 /* ITEM 1 */
@@ -81,17 +104,15 @@
 
 .carousel-indicators-wrap ol > li.item-1:hover {
     background: url('../images/our_work/hover_step1.png') no-repeat;
-    border-bottom: 2px solid #fbd302;
-    color: #333333;
 }
 .carousel-indicators-wrap ol > li.item-1.active {
     background: url('../images/our_work/activ_step1.png') no-repeat;
     border: none;
     border-radius: 0;
-    border-bottom: 2px solid #fbd302;
     height: 90px;
     margin: 0 80px;
     width: 52px;
+
 }
 
 .carousel-indicators-wrap ol > li.item-2{
@@ -99,14 +120,12 @@
 }
 .carousel-indicators-wrap ol > li.item-2:hover {
     background: url('../images/our_work/hover_step2.png') no-repeat;
-    border-bottom: 2px solid #fbd302;
-    color: #333333;
+
 }
 .carousel-indicators-wrap ol > li.item-2.active {
     background: url('../images/our_work/activ_step2.png') no-repeat;
     border: none;
     border-radius: 0;
-    border-bottom: 2px solid #fbd302;
     height: 90px;
     margin: 0 80px;
     width: 52px;
@@ -120,14 +139,11 @@
 
 .carousel-indicators-wrap ol > li.item-3:hover {
     background: url('../images/our_work/hover_step3.png') no-repeat;
-    border-bottom: 2px solid #fbd302;
-    color: #333333;
 }
 .carousel-indicators-wrap ol > li.item-3.active {
     background: url('../images/our_work/activ_step3.png') no-repeat;
     border: none;
     border-radius: 0;
-    border-bottom: 2px solid #fbd302;
     height: 90px;
     margin: 0 80px;
     width: 52px;
@@ -140,15 +156,13 @@
 
 .carousel-indicators-wrap ol > li.item-4:hover {
     background: url('../images/our_work/hover_step4.png') no-repeat;
-    border-bottom: 2px solid #fbd302;
-    color: #333333;
+
 }
 
 .carousel-indicators-wrap ol > li.item-4.active {
     background: url('../images/our_work/activ_step4.png') no-repeat;
     border: none;
     border-radius: 0;
-    border-bottom: 2px solid #fbd302;
     height: 90px;
     margin: 0 80px;
     width: 52px;
@@ -162,15 +176,12 @@
 
 .carousel-indicators-wrap ol > li.item-5:hover {
     background: url('../images/our_work/hover_step5.png') no-repeat;
-    border-bottom: 2px solid #fbd302;
-    color: #333333;
 }
 
 .carousel-indicators-wrap ol > li.item-5.active {
     background: url('../images/our_work/activ_step5.png') no-repeat;
     border: none;
     border-radius: 0;
-    border-bottom: 2px solid #fbd302;
     height: 90px;
     margin: 0 80px;
     width: 52px;
@@ -205,12 +216,8 @@
 .switch ol > li span {
     position: absolute;
     top: 100px;
+    text-transform: uppercase;
 }
-
-/*.switch .active ol > li:hover {
-    cursor: pointer;
-    color: #333333;
-}*/
 
 
 .switch ol > li span {
@@ -241,8 +248,11 @@
     outline: none;
     border: none;
     border-radius: 0;
+    transition: background .3s;
 }
-
+.switch ol > li.active{
+    color: #333333;
+}
 
 .switch .carousel-indicators {
     display: flex;
@@ -276,11 +286,12 @@
 
 .switch li.ident-3:hover > span {
     border-bottom: 2px solid #fbd302;
-
+    color: #333333;
 }
 
 .switch li.ident-3.active > span {
-    border-bottom: 2px solid #fbd302
+    border-bottom: 2px solid #fbd302;
+
 }
 
 /*====================*/
@@ -305,16 +316,17 @@
     background-position: center;
     width: 80px;
     margin: 0 30px 0 30px;
-
 }
 
 .switch li.ident-2:hover > span {
     border-bottom: 2px solid #fbd302;
+    color: #333333;
+
 
 }
 
 .switch li.ident-2.active > span {
-    border-bottom: 2px solid #fbd302
+    border-bottom: 2px solid #fbd302;
 }
 /*===============================================*/
 
@@ -349,11 +361,11 @@
 
 .switch li.ident-1.active > span {
     border-bottom: 2px solid #fbd302;
-    color: #333333;
+
 }
 
 
-/*================================macbook===================================*/
+/*================================macbook=Scroll==================================*/
 .screen:before {
     content: "";
     display: block;
@@ -389,7 +401,7 @@
 }
 
 
-/*===========================Ipad===================*/
+/*===========================Ipad=Scroll==================*/
 .screen-ipad:before {
     content: "";
     display: block;
@@ -425,7 +437,7 @@
 }
 
 
-/*=================================iphone==========================================*/
+/*=================================iphone=Scroll=========================================*/
 
 .screen-iphone:before {
     content: "";
