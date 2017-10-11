@@ -389,7 +389,7 @@
 -------------------------------------------------------------- */
 
 .macbook .viewport {
-    transition: background-position 3s ease;
+    transition: background-position 4s ease;
     background-position: 0 0;
     background-size: 100% auto;
     overflow: hidden;
@@ -474,3 +474,2934 @@
     background-position: 0 100%;
 }
 
+/*=============================================Typing================================*/
+.carusel-work .carousel.caption {
+    top: -305px;
+    left: 50px;
+}
+
+body {
+    /*background: #272822;*/
+    padding: 3em;
+}
+
+.development {
+    text-align: left;
+    padding: .5em 1em;
+    margin-bottom: .5em;
+    line-height: 1.3;
+    font-size: 14px;
+    font-weight: 300;
+}
+.development .row-one span{
+    color: #ffffff;
+}
+.development .row-one .text-one.brackett{
+    color: #70b8ff;
+}
+.development .row-one .text-eleven.brackett{
+    color: #70b8ff;
+}
+.development .row-three span{
+    color: #70b8ff;
+}
+
+[class^="text-"], [class*=" text-"] {
+    color: #F92772;
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    letter-spacing: .03em;
+    -webkit-font-smoothing: antialiased;
+    /*font-weight: 300;*/
+    /*font-family: monospace;*/
+    /*font-size: 14px;*/
+    /*line-height: 0.9;*/
+}
+
+/*.brackett {
+    color: #70b8ff;
+}*/
+
+.text {
+    color: #75715E;
+}
+
+[class^="text-"], [class*=" text-"] {
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.text-one {
+    -webkit-animation-name: write1;
+    animation-name: write1;
+    /*color: #70b8ff!important;*/
+
+}
+
+@-webkit-keyframes write1 {
+    0% {
+        opacity: 0;
+    }
+    0.15%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write1 {
+    0% {
+        opacity: 0;
+    }
+    0.15%, 100% {
+        opacity: 1;
+    }
+}
+.text-two {
+    -webkit-animation-name: write2;
+    animation-name: write2;
+}
+
+@-webkit-keyframes write2 {
+    0%, 0.15% {
+        opacity: 0;
+    }
+    0.3%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write2 {
+    0%, 0.15% {
+        opacity: 0;
+    }
+    0.3%, 100% {
+        opacity: 1;
+    }
+}
+.text-three {
+    -webkit-animation-name: write3;
+    animation-name: write3;
+}
+
+@-webkit-keyframes write3 {
+    0%, 0.3% {
+        opacity: 0;
+    }
+    0.45%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write3 {
+    0%, 0.3% {
+        opacity: 0;
+    }
+    0.45%, 100% {
+        opacity: 1;
+    }
+}
+.text-four {
+    -webkit-animation-name: write4;
+    animation-name: write4;
+}
+
+@-webkit-keyframes write4 {
+    0%, 0.45% {
+        opacity: 0;
+    }
+    0.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write4 {
+    0%, 0.45% {
+        opacity: 0;
+    }
+    0.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-five {
+    -webkit-animation-name: write5;
+    animation-name: write5;
+}
+
+@-webkit-keyframes write5 {
+    0%, 0.6% {
+        opacity: 0;
+    }
+    0.75%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write5 {
+    0%, 0.6% {
+        opacity: 0;
+    }
+    0.75%, 100% {
+        opacity: 1;
+    }
+}
+.text-six {
+    -webkit-animation-name: write6;
+    animation-name: write6;
+}
+
+@-webkit-keyframes write6 {
+    0%, 0.75% {
+        opacity: 0;
+    }
+    0.9%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write6 {
+    0%, 0.75% {
+        opacity: 0;
+    }
+    0.9%, 100% {
+        opacity: 1;
+    }
+}
+.text-seven {
+    -webkit-animation-name: write7;
+    animation-name: write7;
+}
+/*=========================*/
+@-webkit-keyframes write7 {
+    0%, 0.9% {
+        opacity: 0;
+    }
+    1.05%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write7 {
+    0%, 0.9% {
+        opacity: 0;
+    }
+    1.05%, 100% {
+        opacity: 1;
+    }
+}
+.text-eight {
+    -webkit-animation-name: write8;
+    animation-name: write8;
+}
+
+@-webkit-keyframes write8 {
+    0%, 1.2% {
+        opacity: 0;
+    }
+    1.35%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write8 {
+    0%, 1.2% {
+        opacity: 0;
+    }
+    1.35%, 100% {
+        opacity: 1;
+    }
+}
+.text-nine {
+    -webkit-animation-name: write9;
+    animation-name: write9;
+}
+
+@-webkit-keyframes write9 {
+    0%, 1.35% {
+        opacity: 0;
+    }
+    1.5%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write9 {
+    0%, 1.35% {
+        opacity: 0;
+    }
+    1.5%, 100% {
+        opacity: 1;
+    }
+}
+.text-ten {
+    -webkit-animation-name: write10;
+    animation-name: write10;
+}
+
+@-webkit-keyframes write10 {
+    0%, 1.5% {
+        opacity: 0;
+    }
+    1.5%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write10 {
+    0%, 1.5% {
+        opacity: 0;
+    }
+    1.65%, 100% {
+        opacity: 1;
+    }
+}
+.text-eleven {
+    -webkit-animation-name: write11;
+    animation-name: write11;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write11 {
+    0%, 1.65% {
+        opacity: 0;
+    }
+    1.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write11 {
+    0%, 1.65% {
+        opacity: 0;
+    }
+    1.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-twelve {
+    -webkit-animation-name: write12;
+    animation-name: write12;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write12 {
+    0%, 1.8% {
+        opacity: 0;
+    }
+    1.95%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write12 {
+    0%, 1.8% {
+        opacity: 0;
+    }
+    1.95%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirteen {
+    -webkit-animation-name: write13;
+    animation-name: write13;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write13 {
+    0%, 1.95% {
+        opacity: 0;
+    }
+    2.1%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write13 {
+    0%, 1.95% {
+        opacity: 0;
+    }
+    2.1%, 100% {
+        opacity: 1;
+    }
+}
+.text-fourteen {
+    -webkit-animation-name: write14;
+    animation-name: write14;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write14 {
+    0%, 2.1% {
+        opacity: 0;
+    }
+    2.25%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write14 {
+    0%, 2.1% {
+        opacity: 0;
+    }
+    2.25%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifteen {
+    -webkit-animation-name: write15;
+    animation-name: write15;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write15 {
+    0%, 2.25% {
+        opacity: 0;
+    }
+    2.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write15 {
+    0%, 2.25% {
+        opacity: 0;
+    }
+    2.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixteen {
+    -webkit-animation-name: write16;
+    animation-name: write16;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write16 {
+    0%, 2.4% {
+        opacity: 0;
+    }
+    2.55%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write16 {
+    0%, 2.4% {
+        opacity: 0;
+    }
+    2.55%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventeen {
+    -webkit-animation-name: write17;
+    animation-name: write17;
+    color: #9be063;
+}
+
+@-webkit-keyframes write17 {
+    0%, 2.55% {
+        opacity: 0;
+    }
+    2.7%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write17 {
+    0%, 2.55% {
+        opacity: 0;
+    }
+    2.7%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighteen {
+    -webkit-animation-name: write18;
+    animation-name: write18;
+    color: #9be063;
+}
+
+@-webkit-keyframes write18 {
+    0%, 2.7% {
+        opacity: 0;
+    }
+    2.85%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write18 {
+    0%, 2.7% {
+        opacity: 0;
+    }
+    2.85%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-nineteen {
+    -webkit-animation-name: write19;
+    animation-name: write19;
+    color: #9be063;
+}
+
+@-webkit-keyframes write19 {
+    0%, 2.85% {
+        opacity: 0;
+    }
+    3%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write19 {
+    0%, 2.85% {
+        opacity: 0;
+    }
+    3%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty {
+    -webkit-animation-name: write20;
+    animation-name: write20;
+    color: #9be063;
+}
+
+@-webkit-keyframes write20 {
+    0%, 3% {
+        opacity: 0;
+    }
+    3.15%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write20 {
+    0%, 3% {
+        opacity: 0;
+    }
+    3.15%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty_one {
+    -webkit-animation-name: write21;
+    animation-name: write21;
+    color: #9be063;
+}
+
+@-webkit-keyframes write21 {
+    0%, 3.15% {
+        opacity: 0;
+    }
+    3.3%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write21 {
+    0%, 3.15% {
+        opacity: 0;
+    }
+    3.3%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty_two {
+    -webkit-animation-name: write22;
+    animation-name: write22;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write22 {
+    0%, 3.3% {
+        opacity: 0;
+    }
+    3.45%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write22 {
+    0%, 3.3% {
+        opacity: 0;
+    }
+    3.45%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty_three {
+    -webkit-animation-name: write23;
+    animation-name: write23;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write23 {
+    0%, 3.45% {
+        opacity: 0;
+    }
+    3.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write23 {
+    0%, 3.45% {
+        opacity: 0;
+    }
+    3.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty_four {
+    -webkit-animation-name: write24;
+    animation-name: write24;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write24 {
+    0%, 3.6% {
+        opacity: 0;
+    }
+    0%, 3.75% {
+        opacity: 1;
+    }
+}
+
+@keyframes write24 {
+    0%, 3.6% {
+        opacity: 0;
+    }
+    3.75%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty_five {
+    -webkit-animation-name: write25;
+    animation-name: write25;
+}
+
+@-webkit-keyframes write25 {
+    0%, 3.75% {
+        opacity: 0;
+    }
+    3.9%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write25 {
+    0%, 3.75% {
+        opacity: 0;
+    }
+    3.9%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty_six {
+    -webkit-animation-name: write26;
+    animation-name: write26;
+}
+
+@-webkit-keyframes write26 {
+    0%, 3.9% {
+        opacity: 0;
+    }
+    4.05%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write26 {
+    0%, 3.9% {
+        opacity: 0;
+    }
+    4.05%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty_seven {
+    -webkit-animation-name: write27;
+    animation-name: write27;
+}
+
+@-webkit-keyframes write27 {
+    0%, 4.05% {
+        opacity: 0;
+    }
+    4.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write27 {
+    0%, 4.05% {
+        opacity: 0;
+    }
+    4.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty_eight {
+    -webkit-animation-name: write28;
+    animation-name: write28;
+}
+
+@-webkit-keyframes write28 {
+    0%, 4.2% {
+        opacity: 0;
+    }
+    4.35%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write28 {
+    0%, 4.2% {
+        opacity: 0;
+    }
+    4.35%, 100% {
+        opacity: 1;
+    }
+}
+.text-twenty_nine {
+    -webkit-animation-name: write29;
+    animation-name: write29;
+}
+
+@-webkit-keyframes write29 {
+    0%, 4.35% {
+        opacity: 0;
+    }
+    4.5%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write29 {
+    0%, 4.35% {
+        opacity: 0;
+    }
+    4.5%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty {
+    -webkit-animation-name: write30;
+    animation-name: write30;
+}
+
+@-webkit-keyframes write30 {
+    0%, 4.5% {
+        opacity: 0;
+    }
+    4.65%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write30 {
+    0%, 4.5% {
+        opacity: 0;
+    }
+    4.65%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty_one {
+    -webkit-animation-name: write31;
+    animation-name: write31;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write31 {
+    0%, 4.65% {
+        opacity: 0;
+    }
+    4.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write31 {
+    0%, 4.65% {
+        opacity: 0;
+    }
+    4.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty_two {
+    -webkit-animation-name: write32;
+    animation-name: write32;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write32 {
+    0%, 4.8% {
+        opacity: 0;
+    }
+    4.95%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write32 {
+    0%, 4.8% {
+        opacity: 0;
+    }
+    4.95%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty_three {
+    -webkit-animation-name: write33;
+    animation-name: write33;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write33 {
+    0%, 4.95% {
+        opacity: 0;
+    }
+    5.1%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write33 {
+    0%, 4.95% {
+        opacity: 0;
+    }
+    5.1%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty_four {
+    -webkit-animation-name: write34;
+    animation-name: write34;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write34 {
+    0%, 5.1% {
+        opacity: 0;
+    }
+    5.25%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write34 {
+    0%, 5.1% {
+        opacity: 0;
+    }
+    5.25%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty_five {
+    -webkit-animation-name: write35;
+    animation-name: write35;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write35 {
+    0%, 5.25% {
+        opacity: 0;
+    }
+    5.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write35 {
+    0%, 5.25% {
+        opacity: 0;
+    }
+    5.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty_six {
+    -webkit-animation-name: write36;
+    animation-name: write36;
+    color: #9be063;
+}
+
+@-webkit-keyframes write36 {
+    0%, 5.4% {
+        opacity: 0;
+    }
+    5.55%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write36 {
+    0%, 5.4% {
+        opacity: 0;
+    }
+    5.55%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty_seven {
+    -webkit-animation-name: write37;
+    animation-name: write37;
+    color: #9be063;
+}
+
+@-webkit-keyframes write37 {
+    0%, 5.55% {
+        opacity: 0;
+    }
+    5.57%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write37 {
+    0%, 5.55% {
+        opacity: 0;
+    }
+    5.57%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty_eight {
+    -webkit-animation-name: write38;
+    animation-name: write38;
+    color: #9be063;
+}
+
+@-webkit-keyframes write38 {
+    0%, 5.57% {
+        opacity: 0;
+    }
+    5.85%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write38 {
+    0%, 5.57% {
+        opacity: 0;
+    }
+    5.85%, 100% {
+        opacity: 1;
+    }
+}
+.text-thirty_nine {
+    -webkit-animation-name: write39;
+    animation-name: write39;
+    color: #9be063;
+}
+
+@-webkit-keyframes write39 {
+    0%, 5.85% {
+        opacity: 0;
+    }
+    6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write39 {
+    0%, 5.85% {
+        opacity: 0;
+    }
+    6%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty {
+    -webkit-animation-name: write40;
+    animation-name: write40;
+    color: #9be063;
+}
+
+@-webkit-keyframes write40 {
+    0%, 6% {
+        opacity: 0;
+    }
+    6.15%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write40 {
+    0%, 6% {
+        opacity: 0;
+    }
+    6.15%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty_one {
+    -webkit-animation-name: write41;
+    animation-name: write41;
+    color: #9be063;
+}
+
+@-webkit-keyframes write41 {
+    0%, 6.15% {
+        opacity: 0;
+    }
+    6.3%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write41 {
+    0%, 6.15% {
+        opacity: 0;
+    }
+    6.3%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty_two {
+    -webkit-animation-name: write42;
+    animation-name: write42;
+    color: #9be063;
+}
+
+@-webkit-keyframes write42 {
+    0%, 6.3% {
+        opacity: 0;
+    }
+    6.45%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write42 {
+    0%, 6.3% {
+        opacity: 0;
+    }
+    6.45%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty_three {
+    -webkit-animation-name: write43;
+    animation-name: write43;
+    color: #9be063;
+}
+
+@-webkit-keyframes write43 {
+    0%, 6.45% {
+        opacity: 0;
+    }
+    6.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write43 {
+    0%, 6.45% {
+        opacity: 0;
+    }
+    6.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty_four {
+    -webkit-animation-name: write44;
+    animation-name: write44;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write44 {
+    0%, 6.6% {
+        opacity: 0;
+    }
+    6.75%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write44 {
+    0%, 6.6% {
+        opacity: 0;
+    }
+    6.75%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty_five {
+    -webkit-animation-name: write45;
+    animation-name: write45;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write45 {
+    0%, 6.75% {
+        opacity: 0;
+    }
+    6.9%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write45 {
+    0%, 6.75% {
+        opacity: 0;
+    }
+    6.9%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty_six {
+    -webkit-animation-name: write46;
+    animation-name: write46;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write46 {
+    0%, 6.9% {
+        opacity: 0;
+    }
+    7.05%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write46 {
+    0%, 6.9% {
+        opacity: 0;
+    }
+    7.05%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty_seven {
+    -webkit-animation-name: write47;
+    animation-name: write47;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write47 {
+    0%, 6.9% {
+        opacity: 0;
+    }
+    7.05%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write47 {
+    0%, 6.9% {
+        opacity: 0;
+    }
+    7.05%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty_eight {
+    -webkit-animation-name: write48;
+    animation-name: write48;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write48 {
+    0%, 7.05% {
+        opacity: 0;
+    }
+    7.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write48 {
+    0%, 7.05% {
+        opacity: 0;
+    }
+    7.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-forty_nine {
+    -webkit-animation-name: write49;
+    animation-name: write49;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write49 {
+    0%, 7.2% {
+        opacity: 0;
+    }
+    7.35%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write49 {
+    0%, 7.2% {
+        opacity: 0;
+    }
+    7.35%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty {
+    -webkit-animation-name: write50;
+    animation-name: write50;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write50 {
+    0%, 7.35% {
+        opacity: 0;
+    }
+    7.5%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write50 {
+    0%, 7.35% {
+        opacity: 0;
+    }
+    7.5%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty_one {
+    -webkit-animation-name: write51;
+    animation-name: write51;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write51 {
+    0%, 7.5% {
+        opacity: 0;
+    }
+    7.65%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write51 {
+    0%, 7.5% {
+        opacity: 0;
+    }
+    7.65%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty_two {
+    -webkit-animation-name: write52;
+    animation-name: write52;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write52 {
+    0%, 7.65% {
+        opacity: 0;
+    }
+    7.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write52 {
+    0%, 7.65% {
+        opacity: 0;
+    }
+    7.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty_three {
+    -webkit-animation-name: write53;
+    animation-name: write53;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write53 {
+    0%, 7.8% {
+        opacity: 0;
+    }
+    7.95%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write53 {
+    0%, 7.8% {
+        opacity: 0;
+    }
+    7.95%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty_four {
+    -webkit-animation-name: write54;
+    animation-name: write54;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write54 {
+    0%, 7.95% {
+        opacity: 0;
+    }
+    8.1%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write54 {
+    0%, 7.95% {
+        opacity: 0;
+    }
+    8.1%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty_five {
+    -webkit-animation-name: write55;
+    animation-name: write55;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write55 {
+    0%, 8.1% {
+        opacity: 0;
+    }
+    8.25%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write55 {
+    0%, 8.1% {
+        opacity: 0;
+    }
+    8.25%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty_six {
+    -webkit-animation-name: write56;
+    animation-name: write56;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write56 {
+    0%, 8.25% {
+        opacity: 0;
+    }
+    8.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write55 {
+    0%, 8.25% {
+        opacity: 0;
+    }
+    8.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty_seven {
+    -webkit-animation-name: write57;
+    animation-name: write57;
+    color: #9be063;
+}
+
+@-webkit-keyframes write57 {
+    0%, 8.4% {
+        opacity: 0;
+    }
+    8.55%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write57 {
+    0%, 8.4% {
+        opacity: 0;
+    }
+    8.55%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty_eight {
+    -webkit-animation-name: write58;
+    animation-name: write58;
+    color: #9be063;
+}
+
+@-webkit-keyframes write58 {
+    0%, 8.55% {
+        opacity: 0;
+    }
+    8.7%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write58 {
+    0%, 8.55% {
+        opacity: 0;
+    }
+    8.7%, 100% {
+        opacity: 1;
+    }
+}
+.text-fifty_nine {
+    -webkit-animation-name: write59;
+    animation-name: write59;
+    color: #9be063;
+}
+
+@-webkit-keyframes write59 {
+    0%, 8.7% {
+        opacity: 0;
+    }
+    8.85%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write59 {
+    0%, 8.7% {
+        opacity: 0;
+    }
+    8.85%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty {
+    -webkit-animation-name: write60;
+    animation-name: write60;
+    color: #9be063;
+}
+
+@-webkit-keyframes write60 {
+    0%, 8.85% {
+        opacity: 0;
+    }
+    9.0%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write60 {
+    0%, 8.85% {
+        opacity: 0;
+    }
+    9%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty_one {
+    -webkit-animation-name: write61;
+    animation-name: write61;
+    color: #9be063;
+}
+
+@-webkit-keyframes write61 {
+    0%, 9% {
+        opacity: 0;
+    }
+    9.15%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write61 {
+    0%, 9% {
+        opacity: 0;
+    }
+    9.15%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty_two {
+    -webkit-animation-name: write62;
+    animation-name: write62;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write62 {
+    0%, 9.15% {
+        opacity: 0;
+    }
+    9.3%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write62 {
+    0%, 9.15% {
+        opacity: 0;
+    }
+    9.3%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty_three {
+    -webkit-animation-name: write63;
+    animation-name: write63;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write63 {
+    0%, 9.3% {
+        opacity: 0;
+    }
+    9.45%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write63 {
+    0%, 9.3% {
+        opacity: 0;
+    }
+    9.45%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty_four {
+    -webkit-animation-name: write64;
+    animation-name: write64;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write64 {
+    0%, 9.45% {
+        opacity: 0;
+    }
+    9.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write64 {
+    0%, 9.45% {
+        opacity: 0;
+    }
+    9.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty_five {
+    -webkit-animation-name: write65;
+    animation-name: write65;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write65 {
+    0%, 9.6% {
+        opacity: 0;
+    }
+    9.75%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write65 {
+    0%, 9.6% {
+        opacity: 0;
+    }
+    9.75%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty_six {
+    -webkit-animation-name: write66;
+    animation-name: write66;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write66 {
+    0%, 9.75% {
+        opacity: 0;
+    }
+    9.9%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write66 {
+    0%, 9.75% {
+        opacity: 0;
+    }
+    9.9%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty_seven {
+    -webkit-animation-name: write67;
+    animation-name: write67;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write67 {
+    0%, 9.9% {
+        opacity: 0;
+    }
+    10.05%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write67 {
+    0%, 9.9% {
+        opacity: 0;
+    }
+    10.05%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty_eight {
+    -webkit-animation-name: write68;
+    animation-name: write68;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write68 {
+    0%, 10.05% {
+        opacity: 0;
+    }
+    10.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write68 {
+    0%, 10.05% {
+        opacity: 0;
+    }
+    10.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-sixty_nine {
+    -webkit-animation-name: write69;
+    animation-name: write69;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write69 {
+    0%, 10.2% {
+        opacity: 0;
+    }
+    10.35%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write69 {
+    0%, 10.2% {
+        opacity: 0;
+    }
+    10.35%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy {
+    -webkit-animation-name: write70;
+    animation-name: write70;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write70 {
+    0%, 10.35% {
+        opacity: 0;
+    }
+    10.5%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write70 {
+    0%, 10.35% {
+        opacity: 0;
+    }
+    10.5%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy_one {
+    -webkit-animation-name: write71;
+    animation-name: write71;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write71 {
+    0%, 10.5% {
+        opacity: 0;
+    }
+    10.65%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write71 {
+    0%, 10.5% {
+        opacity: 0;
+    }
+    10.65%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy_two {
+    -webkit-animation-name: write72;
+    animation-name: write72;
+    color: #9be063;
+}
+
+@-webkit-keyframes write72 {
+    0%, 10.65% {
+        opacity: 0;
+    }
+    10.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write72 {
+    0%, 10.65% {
+        opacity: 0;
+    }
+    10.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy_three {
+    -webkit-animation-name: write73;
+    animation-name: write73;
+    color: #9be063;
+}
+
+@-webkit-keyframes write73 {
+    0%, 10.8% {
+        opacity: 0;
+    }
+    10.95%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write73 {
+    0%, 10.8% {
+        opacity: 0;
+    }
+    10.95%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy_four {
+    -webkit-animation-name: write74;
+    animation-name: write74;
+    color: #9be063;
+}
+
+@-webkit-keyframes write74 {
+    0%, 10.95% {
+        opacity: 0;
+    }
+    11.1%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write74 {
+    0%, 10.95% {
+        opacity: 0;
+    }
+    11.1%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy_five {
+    -webkit-animation-name: write75;
+    animation-name: write75;
+    color: #9be063;
+}
+
+@-webkit-keyframes write75 {
+    0%, 11.1% {
+        opacity: 0;
+    }
+    11.25%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write75 {
+    0%, 11.1% {
+        opacity: 0;
+    }
+    11.25%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy_six {
+    -webkit-animation-name: write76;
+    animation-name: write76;
+    color: #9be063;
+}
+
+@-webkit-keyframes write76 {
+    0%, 11.25% {
+        opacity: 0;
+    }
+    11.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write76 {
+    0%, 11.25% {
+        opacity: 0;
+    }
+    11.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy_seven {
+    -webkit-animation-name: write77;
+    animation-name: write77;
+    color: #9be063;
+}
+
+@-webkit-keyframes write77 {
+    0%, 11.4% {
+        opacity: 0;
+    }
+    11.55%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write77 {
+    0%, 11.4% {
+        opacity: 0;
+    }
+    11.55%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy_eight {
+    -webkit-animation-name: write78;
+    animation-name: write78;
+    color: #9be063;
+}
+
+@-webkit-keyframes write78 {
+    0%, 11.55% {
+        opacity: 0;
+    }
+    11.7%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write78 {
+    0%, 11.55% {
+        opacity: 0;
+    }
+    11.7%, 100% {
+        opacity: 1;
+    }
+}
+.text-seventy_nine {
+    -webkit-animation-name: write79;
+    animation-name: write79;
+    color: #9be063;
+}
+
+@-webkit-keyframes write79 {
+    0%, 11.7% {
+        opacity: 0;
+    }
+    11.85%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write79 {
+    0%, 11.7% {
+        opacity: 0;
+    }
+    11.85%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty {
+    -webkit-animation-name: write80;
+    animation-name: write80;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write80 {
+    0%, 11.85% {
+        opacity: 0;
+    }
+    12%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write80 {
+    0%, 11.85% {
+        opacity: 0;
+    }
+    12%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty_one {
+    -webkit-animation-name: write81;
+    animation-name: write81;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write81 {
+    0%, 12% {
+        opacity: 0;
+    }
+    12.15%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write81 {
+    0%, 12% {
+        opacity: 0;
+    }
+    12.15%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty_two {
+    -webkit-animation-name: write82;
+    animation-name: write82;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write82 {
+    0%, 12.15% {
+        opacity: 0;
+    }
+    12.3%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write82 {
+    0%, 12.15% {
+        opacity: 0;
+    }
+    12.3%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty_three {
+    -webkit-animation-name: write83;
+    animation-name: write83;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write83 {
+    0%, 12.3% {
+        opacity: 0;
+    }
+    12.45%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write83 {
+    0%, 12.3% {
+        opacity: 0;
+    }
+    12.45%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty_four {
+    -webkit-animation-name: write84;
+    animation-name: write84;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write84 {
+    0%, 12.45% {
+        opacity: 0;
+    }
+    12.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write84 {
+    0%, 12.45% {
+        opacity: 0;
+    }
+    12.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty_five {
+    -webkit-animation-name: write85;
+    animation-name: write85;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write85 {
+    0%, 12.6% {
+        opacity: 0;
+    }
+    12.75%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write85 {
+    0%, 12.6% {
+        opacity: 0;
+    }
+    12.75%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty_six {
+    -webkit-animation-name: write86;
+    animation-name: write86;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write86 {
+    0%, 12.75% {
+        opacity: 0;
+    }
+    12.9%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write86 {
+    0%, 12.75% {
+        opacity: 0;
+    }
+    12.9%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty_seven {
+    -webkit-animation-name: write87;
+    animation-name: write87;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write87 {
+    0%, 12.9% {
+        opacity: 0;
+    }
+    13.05%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write87 {
+    0%, 12.9% {
+        opacity: 0;
+    }
+    13.05%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty_eight {
+    -webkit-animation-name: write88;
+    animation-name: write88;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write88 {
+    0%, 13.05% {
+        opacity: 0;
+    }
+    13.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write88 {
+    0%, 13.05% {
+        opacity: 0;
+    }
+    13.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-eighty_nine {
+    -webkit-animation-name: write89;
+    animation-name: write89;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write89 {
+    0%, 13.2% {
+        opacity: 0;
+    }
+    13.35%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write89 {
+    0%, 13.2% {
+        opacity: 0;
+    }
+    13.35%, 100% {
+        opacity: 1;
+    }
+}
+.text-ninety {
+    -webkit-animation-name: write90;
+    animation-name: write90;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write90 {
+    0%, 13.35% {
+        opacity: 0;
+    }
+    13.5%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write90 {
+    0%, 13.35% {
+        opacity: 0;
+    }
+    13.5%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-ninety_one {
+    -webkit-animation-name: write91;
+    animation-name: write91;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write91 {
+    0%, 13.5% {
+        opacity: 0;
+    }
+    13.65%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write91 {
+    0%, 13.5% {
+        opacity: 0;
+    }
+    13.65%, 100% {
+        opacity: 1;
+    }
+}
+.text-ninety_two {
+    -webkit-animation-name: write92;
+    animation-name: write92;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write92 {
+    0%, 13.65% {
+        opacity: 0;
+    }
+    13.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write92 {
+    0%, 13.65% {
+        opacity: 0;
+    }
+    13.8%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-ninety_three {
+    -webkit-animation-name: write93;
+    animation-name: write93;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write93 {
+    0%, 13.8% {
+        opacity: 0;
+    }
+    13.95%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write93 {
+    0%, 13.8% {
+        opacity: 0;
+    }
+    13.95%, 100% {
+        opacity: 1;
+    }
+}
+
+.text-ninety_four {
+    -webkit-animation-name: write94;
+    animation-name: write94;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write94 {
+    0%, 13.95% {
+        opacity: 0;
+    }
+    14.1%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write94 {
+    0%, 13.95% {
+        opacity: 0;
+    }
+    14.1%, 100% {
+        opacity: 1;
+    }
+}
+.text-ninety_five {
+    -webkit-animation-name: write95;
+    animation-name: write95;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write95 {
+    0%, 14.1% {
+        opacity: 0;
+    }
+    14.25%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write95 {
+    0%, 14.1% {
+        opacity: 0;
+    }
+    14.25%, 100% {
+        opacity: 1;
+    }
+}
+.text-ninety_six {
+    -webkit-animation-name: write96;
+    animation-name: write96;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write96 {
+    0%, 14.25% {
+        opacity: 0;
+    }
+    14.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write96 {
+    0%, 14.25% {
+        opacity: 0;
+    }
+    14.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-ninety_seven {
+    -webkit-animation-name: write97;
+    animation-name: write97;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write97 {
+    0%, 14.4% {
+        opacity: 0;
+    }
+    14.55%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write97 {
+    0%, 14.4% {
+        opacity: 0;
+    }
+    14.55%, 100% {
+        opacity: 1;
+    }
+}
+.text-ninety_eight {
+    -webkit-animation-name: write98;
+    animation-name: write98;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write98 {
+    0%, 14.55% {
+        opacity: 0;
+    }
+    14.7%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write98 {
+    0%, 14.55% {
+        opacity: 0;
+    }
+    14.7%, 100% {
+        opacity: 1;
+    }
+}
+.text-ninety_nine {
+    -webkit-animation-name: write99;
+    animation-name: write99;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write99 {
+    0%, 14.7% {
+        opacity: 0;
+    }
+    14.85%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write99 {
+    0%, 14.7% {
+        opacity: 0;
+    }
+    14.85%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred {
+    -webkit-animation-name: write100;
+    animation-name: write100;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write100 {
+    0%, 14.85% {
+        opacity: 0;
+    }
+    15%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write100 {
+    0%, 14.85% {
+        opacity: 0;
+    }
+    15%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_one {
+    -webkit-animation-name: write101;
+    animation-name: write101;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write101 {
+    0%, 15% {
+        opacity: 0;
+    }
+    15.15%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write101 {
+    0%, 15% {
+        opacity: 0;
+    }
+    15.15%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_two {
+    -webkit-animation-name: write102;
+    animation-name: write102;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write102 {
+    0%, 15.15% {
+        opacity: 0;
+    }
+    15.3%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write102 {
+    0%, 15.15% {
+        opacity: 0;
+    }
+    15.3%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_two {
+    -webkit-animation-name: write102;
+    animation-name: write102;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write102 {
+    0%, 15.15% {
+        opacity: 0;
+    }
+    15.3%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write102 {
+    0%, 15.15% {
+        opacity: 0;
+    }
+    15.3%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_three {
+    -webkit-animation-name: write103;
+    animation-name: write103;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write103 {
+    0%, 15.3% {
+        opacity: 0;
+    }
+    15.45%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write103 {
+    0%, 15.3% {
+        opacity: 0;
+    }
+    15.45%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_four {
+    -webkit-animation-name: write104;
+    animation-name: write104;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write104 {
+    0%, 15.45% {
+        opacity: 0;
+    }
+    15.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write104 {
+    0%, 15.45% {
+        opacity: 0;
+    }
+    15.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_five {
+    -webkit-animation-name: write105;
+    animation-name: write105;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write105 {
+    0%, 15.6% {
+        opacity: 0;
+    }
+    15.75%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write105 {
+    0%, 15.6% {
+        opacity: 0;
+    }
+    15.75%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_five {
+    -webkit-animation-name: write105;
+    animation-name: write105;
+    color: #70b8ff;
+}
+
+@-webkit-keyframes write105 {
+    0%, 15.6% {
+        opacity: 0;
+    }
+    15.75%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write105 {
+    0%, 15.6% {
+        opacity: 0;
+    }
+    15.75%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_six {
+    -webkit-animation-name: write106;
+    animation-name: write106;
+    color: #9be063;
+}
+
+@-webkit-keyframes write106 {
+    0%, 15.75% {
+        opacity: 0;
+    }
+    15.9%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write106 {
+    0%, 15.75% {
+        opacity: 0;
+    }
+    15.9%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_seven {
+    -webkit-animation-name: write107;
+    animation-name: write107;
+    color: #9be063;
+}
+
+@-webkit-keyframes write107 {
+    0%, 15.9% {
+        opacity: 0;
+    }
+    16.05%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write107 {
+    0%, 15.9% {
+        opacity: 0;
+    }
+    16.05%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_eight {
+    -webkit-animation-name: write108;
+    animation-name: write108;
+    color: #9be063;
+}
+
+@-webkit-keyframes write108 {
+    0%, 16.05% {
+        opacity: 0;
+    }
+    16.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write108 {
+    0%, 16.05% {
+        opacity: 0;
+    }
+    16.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_nine {
+    -webkit-animation-name: write109;
+    animation-name: write109;
+    color: #9be063;
+}
+
+@-webkit-keyframes write109 {
+    0%, 16.2% {
+        opacity: 0;
+    }
+    16.35%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write109 {
+    0%, 16.2% {
+        opacity: 0;
+    }
+    16.35%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_ten {
+    -webkit-animation-name: write110;
+    animation-name: write110;
+    color: #9be063;
+}
+
+@-webkit-keyframes write110 {
+    0%, 16.35% {
+        opacity: 0;
+    }
+    16.5%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write110 {
+    0%, 16.35% {
+        opacity: 0;
+    }
+    16.5%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_eleven {
+    -webkit-animation-name: write111;
+    animation-name: write111;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write111 {
+    0%, 16.5% {
+        opacity: 0;
+    }
+    16.65%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write111 {
+    0%, 16.5% {
+        opacity: 0;
+    }
+    16.65%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twelve {
+    -webkit-animation-name: write112;
+    animation-name: write112;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write112 {
+    0%, 16.65% {
+        opacity: 0;
+    }
+    16.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write112 {
+    0%, 16.65% {
+        opacity: 0;
+    }
+    16.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_thirteen {
+    -webkit-animation-name: write113;
+    animation-name: write113;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write113 {
+    0%, 16.8% {
+        opacity: 0;
+    }
+    16.95%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write113 {
+    0%, 16.8% {
+        opacity: 0;
+    }
+    16.95%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_fourteen {
+    -webkit-animation-name: write114;
+    animation-name: write114;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write114 {
+    0%, 16.95% {
+        opacity: 0;
+    }
+    17.1%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write114 {
+    0%, 16.95% {
+        opacity: 0;
+    }
+    17.1%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_fifteen {
+    -webkit-animation-name: write115;
+    animation-name: write115;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write115 {
+    0%, 17.1% {
+        opacity: 0;
+    }
+    17.25%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write115 {
+    0%, 17.1% {
+        opacity: 0;
+    }
+    17.25%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_sixteen {
+    -webkit-animation-name: write116;
+    animation-name: write116;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write116 {
+    0%, 17.25% {
+        opacity: 0;
+    }
+    17.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write116 {
+    0%, 17.25% {
+        opacity: 0;
+    }
+    17.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_seventeen {
+    -webkit-animation-name: write117;
+    animation-name: write117;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write117 {
+    0%, 17.4% {
+        opacity: 0;
+    }
+    17.55%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write117 {
+    0%, 17.4% {
+        opacity: 0;
+    }
+    17.55%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_eighteen {
+    -webkit-animation-name: write118;
+    animation-name: write118;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write118 {
+    0%, 17.55% {
+        opacity: 0;
+    }
+    17.7%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write118 {
+    0%, 17.55% {
+        opacity: 0;
+    }
+    17.7%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_nineteen {
+    -webkit-animation-name: write119;
+    animation-name: write119;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write119 {
+    0%, 17.7% {
+        opacity: 0;
+    }
+    17.85%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write119 {
+    0%, 17.7% {
+        opacity: 0;
+    }
+    17.85%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twenty {
+    -webkit-animation-name: write120;
+    animation-name: write120;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write120 {
+    0%, 17.85% {
+        opacity: 0;
+    }
+    18%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write120 {
+    0%, 17.85% {
+        opacity: 0;
+    }
+    18%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twenty_one {
+    -webkit-animation-name: write121;
+    animation-name: write121;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write121 {
+    0%, 18% {
+        opacity: 0;
+    }
+    18.15%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write121 {
+    0%, 18% {
+        opacity: 0;
+    }
+    18.15%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twenty_two {
+    -webkit-animation-name: write122;
+    animation-name: write122;
+    color: #9be063;
+}
+
+@-webkit-keyframes write122 {
+    0%, 18.15% {
+        opacity: 0;
+    }
+    18.3%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write122 {
+    0%, 18.15% {
+        opacity: 0;
+    }
+    18.3%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twenty_three {
+    -webkit-animation-name: write123;
+    animation-name: write123;
+    color: #9be063;
+}
+
+@-webkit-keyframes write123 {
+    0%, 18.3% {
+        opacity: 0;
+    }
+    18.45%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write123 {
+    0%, 18.3% {
+        opacity: 0;
+    }
+    18.45%, 100% {
+        opacity: 1;
+    }
+}
