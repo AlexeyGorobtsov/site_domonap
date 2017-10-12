@@ -7928,3 +7928,740 @@ body {
         opacity: 1;
     }
 }
+.text-three_hundred_twenty {
+    -webkit-animation-name: write320;
+    animation-name: write320;
+
+}
+
+@-webkit-keyframes write320 {
+    0%, 48.75% {
+        opacity: 0;
+    }
+    48.9%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write320 {
+    0%, 48.75% {
+        opacity: 0;
+    }
+    48.9%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_twenty_one {
+    -webkit-animation-name: write321;
+    animation-name: write321;
+
+}
+
+@-webkit-keyframes write321 {
+    0%, 48.9% {
+        opacity: 0;
+    }
+    49.05%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write321 {
+    0%, 48.9% {
+        opacity: 0;
+    }
+    49.05%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_twenty_two {
+    -webkit-animation-name: write322;
+    animation-name: write322;
+
+}
+
+@-webkit-keyframes write322 {
+    0%, 49.05% {
+        opacity: 0;
+    }
+    49.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write322 {
+    0%, 49.05% {
+        opacity: 0;
+    }
+    49.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_twenty_three {
+    -webkit-animation-name: write323;
+    animation-name: write323;
+
+}
+
+@-webkit-keyframes write323 {
+    0%, 49.2% {
+        opacity: 0;
+    }
+    49.35%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write323 {
+    0%, 49.2% {
+        opacity: 0;
+    }
+    49.35%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_twenty_four {
+    -webkit-animation-name: write324;
+    animation-name: write324;
+
+}
+
+@-webkit-keyframes write324 {
+    0%, 49.35% {
+        opacity: 0;
+    }
+    49.5%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write324 {
+    0%, 49.35% {
+        opacity: 0;
+    }
+    49.5%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_twenty_five {
+    -webkit-animation-name: write325;
+    animation-name: write325;
+
+}
+
+@-webkit-keyframes write325 {
+    0%, 49.5% {
+        opacity: 0;
+    }
+    49.65%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write325 {
+    0%, 49.5% {
+        opacity: 0;
+    }
+    49.65%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_twenty_six {
+    -webkit-animation-name: write326;
+    animation-name: write326;
+
+}
+
+@-webkit-keyframes write326 {
+    0%, 49.65% {
+        opacity: 0;
+    }
+    49.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write326 {
+    0%, 49.65% {
+        opacity: 0;
+    }
+    49.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_twenty_seven {
+    -webkit-animation-name: write327;
+    animation-name: write326;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write327 {
+    0%, 49.8% {
+        opacity: 0;
+    }
+    49.95%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write327 {
+    0%, 49.8% {
+        opacity: 0;
+    }
+    49.95%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_twenty_eight {
+    -webkit-animation-name: write328;
+    animation-name: write328;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write328 {
+    0%, 49.95% {
+        opacity: 0;
+    }
+    50.10%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write328 {
+    0%, 49.95% {
+        opacity: 0;
+    }
+    50.10%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_twenty_nine {
+    -webkit-animation-name: write329;
+    animation-name: write329;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write329 {
+    0%, 50.1% {
+        opacity: 0;
+    }
+    50.25%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write329 {
+    0%, 50.1% {
+        opacity: 0;
+    }
+    50.25%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty {
+    -webkit-animation-name: write330;
+    animation-name: write330;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write330 {
+    0%, 50.25% {
+        opacity: 0;
+    }
+    50.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write330 {
+    0%, 50.25% {
+        opacity: 0;
+    }
+    50.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty_one {
+    -webkit-animation-name: write331;
+    animation-name: write331;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write331 {
+    0%, 50.4% {
+        opacity: 0;
+    }
+    50.55%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write331 {
+    0%, 50.4% {
+        opacity: 0;
+    }
+    50.55%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty_two {
+    -webkit-animation-name: write332;
+    animation-name: write332;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write332 {
+    0%, 50.55% {
+        opacity: 0;
+    }
+    50.7%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write332 {
+    0%, 50.55% {
+        opacity: 0;
+    }
+    50.7%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty_three {
+    -webkit-animation-name: write333;
+    animation-name: write333;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write333 {
+    0%, 50.7% {
+        opacity: 0;
+    }
+    50.85%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write333 {
+    0%, 50.7% {
+        opacity: 0;
+    }
+    50.85%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty_four {
+    -webkit-animation-name: write334;
+    animation-name: write334;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write334 {
+    0%, 50.85% {
+        opacity: 0;
+    }
+    51%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write334 {
+    0%, 50.85% {
+        opacity: 0;
+    }
+    51%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty_five {
+    -webkit-animation-name: write335;
+    animation-name: write335;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write335 {
+    0%, 51% {
+        opacity: 0;
+    }
+    51.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write335 {
+    0%, 51% {
+        opacity: 0;
+    }
+    51.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty_six {
+    -webkit-animation-name: write336;
+    animation-name: write336;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write336 {
+    0%, 51.2% {
+        opacity: 0;
+    }
+    51.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write336 {
+    0%, 51.2% {
+        opacity: 0;
+    }
+    51.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty_seven {
+    -webkit-animation-name: write337;
+    animation-name: write337;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write337 {
+    0%, 51.4% {
+        opacity: 0;
+    }
+    51.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write337 {
+    0%, 51.4% {
+        opacity: 0;
+    }
+    51.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty_eight {
+    -webkit-animation-name: write338;
+    animation-name: write338;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write338 {
+    0%, 51.6% {
+        opacity: 0;
+    }
+    51.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write338 {
+    0%, 51.6% {
+        opacity: 0;
+    }
+    51.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_thirty_nine {
+    -webkit-animation-name: write339;
+    animation-name: write339;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write339 {
+    0%, 51.8% {
+        opacity: 0;
+    }
+    52%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write339 {
+    0%, 51.8% {
+        opacity: 0;
+    }
+    52%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty {
+    -webkit-animation-name: write340;
+    animation-name: write340;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write340 {
+    0%, 52% {
+        opacity: 0;
+    }
+    52.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write340 {
+    0%, 52% {
+        opacity: 0;
+    }
+    52.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty_one {
+    -webkit-animation-name: write341;
+    animation-name: write341;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write341 {
+    0%, 52.2% {
+        opacity: 0;
+    }
+    52.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write341 {
+    0%, 52.2% {
+        opacity: 0;
+    }
+    52.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty_two {
+    -webkit-animation-name: write342;
+    animation-name: write342;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write342 {
+    0%, 52.4% {
+        opacity: 0;
+    }
+    52.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write342 {
+    0%, 52.4% {
+        opacity: 0;
+    }
+    52.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty_three {
+    -webkit-animation-name: write343;
+    animation-name: write343;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write343 {
+    0%, 52.6% {
+        opacity: 0;
+    }
+    52.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write343 {
+    0%, 52.6% {
+        opacity: 0;
+    }
+    52.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty_four {
+    -webkit-animation-name: write344;
+    animation-name: write344;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write344 {
+    0%, 52.8% {
+        opacity: 0;
+    }
+    53%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write344 {
+    0%, 52.8% {
+        opacity: 0;
+    }
+    53%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty_five {
+    -webkit-animation-name: write345;
+    animation-name: write345;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write345 {
+    0%, 53% {
+        opacity: 0;
+    }
+    53.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write345 {
+    0%, 53% {
+        opacity: 0;
+    }
+    53.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty_six {
+    -webkit-animation-name: write346;
+    animation-name: write346;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write346 {
+    0%, 53.2% {
+        opacity: 0;
+    }
+    53.4%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write346 {
+    0%, 53.2% {
+        opacity: 0;
+    }
+    53.4%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty_seven {
+    -webkit-animation-name: write347;
+    animation-name: write347;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write347 {
+    0%, 53.4% {
+        opacity: 0;
+    }
+    53.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write347 {
+    0%, 53.4% {
+        opacity: 0;
+    }
+    53.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty_eight {
+    -webkit-animation-name: write348;
+    animation-name: write348;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write348 {
+    0%, 53.6% {
+        opacity: 0;
+    }
+    53.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write347 {
+    0%, 53.6% {
+        opacity: 0;
+    }
+    53.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_forty_nine {
+    -webkit-animation-name: write349;
+    animation-name: write349;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write349 {
+    0%, 53.8% {
+        opacity: 0;
+    }
+    54%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write349 {
+    0%, 53.8% {
+        opacity: 0;
+    }
+    54%, 100% {
+        opacity: 1;
+    }
+}
+.text-three_hundred_fifty {
+    -webkit-animation-name: write350;
+    animation-name: write350;
+    color: #70b8ff;
+
+}
+
+@-webkit-keyframes write350 {
+    0%, 54% {
+        opacity: 0;
+    }
+    54.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write350 {
+    0%, 54% {
+        opacity: 0;
+    }
+    54.2%, 100% {
+        opacity: 1;
+    }
+}
