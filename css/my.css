@@ -3405,3 +3405,256 @@ body {
         opacity: 1;
     }
 }
+.text-one_hundred_twenty_four {
+    -webkit-animation-name: write124;
+    animation-name: write124;
+    color: #9be063;
+}
+
+@-webkit-keyframes write124 {
+    0%, 18.45% {
+        opacity: 0;
+    }
+    18.6%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write124 {
+    0%, 18.45% {
+        opacity: 0;
+    }
+    18.6%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twenty_five {
+    -webkit-animation-name: write125;
+    animation-name: write125;
+    color: #9be063;
+}
+
+@-webkit-keyframes write125 {
+    0%, 18.6% {
+        opacity: 0;
+    }
+    18.75%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write125 {
+    0%, 18.6% {
+        opacity: 0;
+    }
+    18.75%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twenty_six {
+    -webkit-animation-name: write126;
+    animation-name: write126;
+    color: #9be063;
+}
+
+@-webkit-keyframes write126 {
+    0%, 18.75% {
+        opacity: 0;
+    }
+    18.9%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write126 {
+    0%, 18.75% {
+        opacity: 0;
+    }
+    18.9%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twenty_seven {
+    -webkit-animation-name: write127;
+    animation-name: write127;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write127 {
+    0%, 18.9% {
+        opacity: 0;
+    }
+    19.05%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write127 {
+    0%, 18.9% {
+        opacity: 0;
+    }
+    19.05%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twenty_eight {
+    -webkit-animation-name: write128;
+    animation-name: write128;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write128 {
+    0%, 19.05% {
+        opacity: 0;
+    }
+    19.2%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write128 {
+    0%, 19.05% {
+        opacity: 0;
+    }
+    19.2%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_twenty_nine {
+    -webkit-animation-name: write129;
+    animation-name: write129;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write129 {
+    0%, 19.2% {
+        opacity: 0;
+    }
+    19.35%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write129 {
+    0%, 19.2% {
+        opacity: 0;
+    }
+    19.35%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_thirty {
+    -webkit-animation-name: write130;
+    animation-name: write130;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write130 {
+    0%, 19.35% {
+        opacity: 0;
+    }
+    19.5%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write130 {
+    0%, 19.35% {
+        opacity: 0;
+    }
+    19.5%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_thirty_one {
+    -webkit-animation-name: write131;
+    animation-name: write131;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write131 {
+    0%, 19.5% {
+        opacity: 0;
+    }
+    19.65%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write131 {
+    0%, 19.5% {
+        opacity: 0;
+    }
+    19.65%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_thirty_two {
+    -webkit-animation-name: write132;
+    animation-name: write132;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write132 {
+    0%, 19.65% {
+        opacity: 0;
+    }
+    19.8%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write132 {
+    0%, 19.65% {
+        opacity: 0;
+    }
+    19.8%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_thirty_three {
+    -webkit-animation-name: write133;
+    animation-name: write133;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write133 {
+    0%, 19.8% {
+        opacity: 0;
+    }
+    19.95%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write132 {
+    0%, 19.8% {
+        opacity: 0;
+    }
+    19.95%, 100% {
+        opacity: 1;
+    }
+}
+.text-one_hundred_thirty_four {
+    -webkit-animation-name: write133;
+    animation-name: write133;
+    color: #f28b66;
+}
+
+@-webkit-keyframes write133 {
+    0%, 19.8% {
+        opacity: 0;
+    }
+    19.95%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes write132 {
+    0%, 19.8% {
+        opacity: 0;
+    }
+    19.95%, 100% {
+        opacity: 1;
+    }
+}
