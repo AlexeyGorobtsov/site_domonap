@@ -1,8 +1,8 @@
 /*==================================FONTS===============================*/
 
-.our_work{
+/*.our_work{
     height: 800px;
-}
+}*/
 .our_work h2{
     font-weight: 500;
     font-size: 30px;
@@ -10,7 +10,8 @@
 }
 .our_work p {
     font-size: 16px;
-    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: justify;
 }
 .stages > h3{
     font-weight: 500;
@@ -27,15 +28,18 @@
     text-align: justify;
 
 }
-.carousel-indicators-wrap {
+.carousel .carousel-indicators-wrap .carousel-indicators {
     border-bottom: 1px solid #e4ebf2;
-    height: 60px;
-    margin: 0px;
+    padding-bottom: 20px;
 }
 /*=============================CAROUSEL=========================*/
 .carousel.fade {
     opacity: 1;
     top: 210px;
+
+}
+.our_work .carousel{
+    position: inherit;
 }
 .carousel.fade .item{
     opacity: 0;
@@ -52,17 +56,19 @@
 }
 
 .carousel-indicators-wrap .carousel-indicators{
-    position: absolute;
     top: -50px;
     margin: 0;
     left: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    position: inherit;
+    padding: 0 15px 0 15px;
     width: 100%;
+
 
 }
 .carousel-inner {
-    padding: 0 15px 0 15px;
+    padding: 55px 15px 70px 15px;
 }
 
 .carousel-indicators-wrap span{
@@ -70,17 +76,17 @@
     font-size: 14px;
 }
 .carousel-indicators-wrap ol > li span {
-    position: absolute;
-    top: 65px;
+    position: inherit;
+    padding-top: 70px;
     text-transform: uppercase;
 
 }
 .carousel-indicators-wrap ol > li.active span {
-    padding-bottom: 23px;
+    padding-bottom: 40px;
     border-bottom: 2px solid #fbd302;
 }
 .carousel-indicators-wrap ol > li:hover span {
-    padding-bottom: 23px;
+    padding-bottom: 40px;
     border-bottom: 2px solid #fbd302;
     color: #333333;
 }
@@ -94,7 +100,6 @@
     display: flex;
     height: 90px;
     justify-content: center;
-    margin: 0 80px;
     outline: none;
     transition: background .3s;
     width: 52px;
@@ -114,7 +119,6 @@
     border: none;
     border-radius: 0;
     height: 90px;
-    margin: 0 80px;
     width: 52px;
 
 }
@@ -131,7 +135,6 @@
     border: none;
     border-radius: 0;
     height: 90px;
-    margin: 0 80px;
     width: 52px;
 }
 
@@ -149,7 +152,6 @@
     border: none;
     border-radius: 0;
     height: 90px;
-    margin: 0 80px;
     width: 52px;
 }
 /* ITEM 4 */
@@ -168,7 +170,6 @@
     border: none;
     border-radius: 0;
     height: 90px;
-    margin: 0 80px;
     width: 52px;
 }
 
@@ -187,15 +188,24 @@
     border: none;
     border-radius: 0;
     height: 90px;
-    margin: 0 80px;
     width: 52px;
 }
 
 
 
 /*===========================================adaptive=================================*/
+#adaptation {
+    background: #f3f8fd;
+}
+#carousel-adaptiv .carousel-inner{
+    padding: 0 15px 0 15px;
+    height: 400px;
+}
 .carousel.slide{
     height: 400px;
+}
+.adaptive_design {
+    padding-top: 30px;
 }
 .adaptive_design h2{
     font-weight: 500;
@@ -208,13 +218,14 @@
     font-weight: 300;
     font-size: 16px;
 }
+
 .switch ol > li {
     color: #bac0c5;
     font-size: 18px;
-    height: 50px;
-    margin: 0 30px;
+    /*height: 50px;*/
+    margin: 0;
     justify-content: center;
-    width: 50px;
+    /*width: 50px;*/
 }
 
 .switch ol > li span {
@@ -240,8 +251,12 @@
     height:640px;
 }
 
-.carousel-work{
+/*.carousel-work{
     height: 400px;
+}*/
+.row .carousel-work img{
+    max-width: 100%;
+    height: auto;
 }
 
 .switch li {
@@ -260,7 +275,7 @@
 
 .switch .carousel-indicators {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     bottom: -120px;
 }
 
@@ -284,7 +299,7 @@
     background: url('../images/our_work/iphone_active.png') no-repeat;
     background-position: center;
     width: 80px;
-    margin: 0 30px 0 30px;
+    /*margin: 0 30px 0 30px;*/
 
 }
 
@@ -319,7 +334,7 @@
     background: url('../images/our_work/Ipad_activ.png') no-repeat;
     background-position: center;
     width: 80px;
-    margin: 0 30px 0 30px;
+   /* margin: 0 30px 0 30px;*/
 }
 
 .switch li.ident-2:hover > span {
@@ -353,7 +368,7 @@
     background: url('../images/our_work/PC_activ.png') no-repeat;
     background-position: center;
     width: 80px;
-    margin: 0 30px 0 30px;
+        /*margin: 0 30px 0 30px;*/
 
 }
 
@@ -383,8 +398,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    top: -25px;
-    margin: 5.1% -9.2%;
+    top: -11%;
+    margin: 5% -11.3%;
     background: #333;
 }
 
@@ -419,8 +434,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    top: 0;
-    margin: 12% 26.2%;
+    top: 18%;
+    margin: 3% 25.2%;
     background: #333;
 }
 
@@ -484,26 +499,115 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+    .stages > p{
+        font-weight: 300;
+        font-size: 16px;
+        text-align: justify;
+
+    }
+    .stages > h3{
+        text-align: left;
+    }
+
+    .carousel-inner .carousel-work .carousel.caption {
+        top: 65px;
+
+    }
+
+    .development {
+
+        font-size: 12px!important;
+
+    }
+    .our_work p {
+
+        padding-bottom: 20px;
+
+    }
+    .carousel-inner {
+        padding: 35px 15px 50px 15px;
+    }
+    .viewport {
+        top: -15.5%;
+        margin: 4% -17%;
+    }
+    .viewport-ipad {
+        top: 4%;
+        margin: 4% 19%;
+
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .carousel-inner .carousel-work .carousel.caption {
+        top: 75px;
+
+    }
+
+    .development {
+
+        font-size: 13.5px!important;
+
+    }
+
+    .viewport {
+        top: -16%;
+        margin: 5% -14%;
+    }
+    .viewport-ipad {
+        top: 16%;
+        margin: 3% 23%;
+
+    }
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    .our_work h2{
-        font-weight: 500;
+
+    .our_work h2 {
+
         font-size: 24px;
-        text-align: center;
     }
     .our_work p {
         font-size: 14px;
-        padding-top: 10px;
+        font-weight: 300;
+    }
+    .stages > h3 {
+        font-size: 20px;
+    }
+    .stages > h3 > span {
+        font-size: 20px;
+    }
+    .carousel-inner {
+        padding: 5px 15px 30px 15px;
+    }
+    .carousel-inner .carousel-work .carousel.caption {
+        top: 10vw;
+    }
+    .development {
+        font-size: 1.8vw!important;
     }
 
+    /*.viewport {
+        top: -8%;
+        margin: 9.5% -3%;
+    }*/
+
+
 }
+
+@media only screen and (max-width : 767px) {
+
+    .viewport{
+        top: -4%;
+        margin: 4% -4.5%;
+    }
+
+
+}
+
 
 
 /* Extra Small Devices, Phones */
@@ -511,22 +615,24 @@
 
 }
 /*=============================================Typing================================*/
-.carusel-work .carousel.caption {
-    top: -304px;
-    left: 50px;
+.carousel-work .carousel.caption {
+    top: 80px;
+    left: 65px;
+    position: absolute;
+
 }
 
-body {
-    /*background: #272822;*/
+/*body {
+    !*background: #272822;*!
     padding: 3em;
-}
+}*/
 
 .development {
     text-align: left;
     padding: .5em 1em;
     margin-bottom: .5em;
     line-height: 1.3;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 300;
 }
 .development .row-one span{
