@@ -103,6 +103,7 @@
     outline: none;
     transition: background .3s;
     width: 52px;
+    margin: 0;
 }
 
 /* ITEM 1 */
@@ -471,8 +472,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    top: -14px;
-    margin: 11.9% 34.2%;
+    top: 24.5%;
+    margin: -2% 33%;
     background: #333;
 }
 
@@ -536,6 +537,11 @@
         margin: 4% 19%;
 
     }
+    .viewport-iphone {
+        top: 10%;
+        margin: -2.5% 29%;
+
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -559,6 +565,16 @@
         top: 16%;
         margin: 3% 23%;
 
+    }
+    .viewport-iphone {
+        top: 21%;
+        margin: -1.5% 32.1%;
+    }
+    .adaptive_design h2 {
+        font-size: 24px;
+    }
+    .adaptive_design p {
+        font-size: 14px;
     }
 
 }
@@ -612,7 +628,76 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .our_work p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    #work .our_work h2{
+        padding:10px;
+    }
+    .stages > h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .carousel .carousel-indicators-wrap .carousel-indicators {
+        padding-bottom: 25px;
+    }
+    .carousel-indicators-wrap ol > li span {
+        padding-top: 75px;
+    }
+    .carousel-indicators-wrap ol > li {
+        opacity: 0;
+    }
+    .carousel-indicators-wrap ol > li.active {
+        opacity: 1;
+    }
+    .carousel-indicators-wrap .carousel-indicators li.item-1.active{
+        position: inherit;
+        margin-left: 50%;
+    }
+    .carousel-indicators-wrap .carousel-indicators li.item-2.active{
+        position: inherit;
+        margin-left: 33%;
+    }
+    .carousel-indicators-wrap .carousel-indicators li.item-3.active{
+        position: inherit;
+    }
+    .carousel-indicators-wrap .carousel-indicators li.item-4.active{
+        position: inherit;
+        margin-right: 33%;
+    }
+    .carousel-indicators-wrap .carousel-indicators li.item-5.active{
+        position: inherit;
+        margin-right: 50%;
+    }
+    .left.carousel-control img{
+        position: inherit;
+        top: 720px;
+        right: 30px;
+    }
+    .right.carousel-control img{
+        position: inherit;
+        top: 720px;
+        left: 30px;
+    }
+}
+@media only screen and (max-width : 320px) {
+    .our_work h2 {
+        font-size: 20px;
+        line-height: 0.9;
+    }
+    .our_work h2 span {
+        display: block;
+    }
+}
+.carousel-control{
+    position: inherit;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
 }
 /*=============================================Typing================================*/
 .carousel-work .carousel.caption {
