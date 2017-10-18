@@ -108,7 +108,7 @@
 							превращая сложный процесс разработки в творчество, наполняющие вдохновением.
 						</p>
 					</div>
-						<div id="carousel-work" class="carousel fade hr" data-ride="carousel">
+						<div id="carousel-work" class="carousel fade hr hidden-xs" data-ride="carousel">
 							<!-- Indicators -->
 							<div class="switchers">
 								<a class="left carousel-control visible-xs" href="#carousel-work" role="button" data-slide="prev">
@@ -263,6 +263,24 @@
 							<!--<div style="clear: both"></div>-->
 
 						</div>
+					<div class="sub-header ">
+						<div class="swipe-tabs">
+							<div class="swipe-tab">One</div>
+							<div class="swipe-tab">Two</div>
+							<div class="swipe-tab">Three</div>
+							<div class="swipe-tab">Four</div>
+							<div class="swipe-tab">Five</div>
+						</div>
+					</div>
+					<div class="main-container">
+						<div class="swipe-tabs-container ">
+							<div class="swipe-tab-content">Tab 1</div>
+							<div class="swipe-tab-content">Tab 2</div>
+							<div class="swipe-tab-content">Tab 3</div>
+							<div class="swipe-tab-content">Tab 4</div>
+							<div class="swipe-tab-content">Tab 5</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -561,14 +579,21 @@
 </section>
 	<section id="adaptation">
 		<div class="adaptive_design">
-			<h2>Адаптивный дизайн. Без компромиссов.</h2>
+			<h2>Адаптивный дизайн. <span>Без компромиссов.</span></h2>
 			<p>
-				2017 год. Адаптивный дизайн — это стандарт, точка. Мы не преподносим вам это как бонус <br>
-				или отдельную услугу, это наша обязанность. Ваш сайт будет выглядеть отлично на любых устройствах.
+				2017 год. Адаптивный дизайн — это стандарт, точка. Мы не преподносим вам это как бонус
+				<span>или отдельную услугу, это наша обязанность. Ваш сайт будет выглядеть отлично на любых устройствах.</span>
 
 			</p>
 			</div>
-			<div class="container hidden-xs <!--hidden-sm--> <!--hidden-md-->">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs visible-xs image_mobile">
+						<img class="center-block" id="bg_ad" src="images/our_work/Adaptive.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="container hidden-xs">
 				<div class="row adaptiv">
 					<div class="col-md-2"></div>
 					<div class="col-md-8 field">
@@ -612,7 +637,7 @@
 											<div class="carousel-caption">
 												<div class="ipad">
 													<div class="screen-ipad">
-														<div class="viewport-ipad" style="background-image:url('images/our_work/Domonap_Ipad.png');"></div>
+														<div class="viewport-ipad" style="background-image:url('images/our_work/Domonap_Ipad2.png');"></div>
 													</div>
 												</div>
 											</div>
@@ -626,7 +651,7 @@
 											<div class="carousel-caption">
 												<div class="iphone">
 													<div class="screen-iphone">
-														<div class="viewport-iphone" style="background-image:url('images/our_work/Domonap_iphone.png');"></div>
+														<div class="viewport-iphone" style="background-image:url('images/our_work/Domonap_iphone2.png"></div>
 													</div>
 												</div>
 											</div>
@@ -702,6 +727,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/swip.js"></script>
 
 	<script src="js/myscript.js"></script>
 </body>
