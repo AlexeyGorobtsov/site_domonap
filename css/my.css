@@ -115,88 +115,123 @@
 
 .carousel-indicators-wrap ol > li.item-1{
     background: url('../images/our_work/normal_step1.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 60px;
 }
 
 .carousel-indicators-wrap ol > li.item-1:hover {
     background: url('../images/our_work/hover_step1.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 60px;
 }
 
 .carousel-indicators-wrap ol > li.item-1.active {
     background: url('../images/our_work/activ_step1.png') no-repeat;
+    background-position-x: center;
     border: none;
     border-radius: 0;
     height: 90px;
-    width: 52px;
+    width: 60px;
 }
 
 .carousel-indicators-wrap ol > li.item-2{
     background: url('../images/our_work/normal_step2.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 77px;
 }
 
 .carousel-indicators-wrap ol > li.item-2:hover {
     background: url('../images/our_work/hover_step2.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 77px;
 }
 
 .carousel-indicators-wrap ol > li.item-2.active {
     background: url('../images/our_work/activ_step2.png') no-repeat;
     border: none;
     border-radius: 0;
+    background-position-x: center;
     height: 90px;
-    width: 52px;
+    width: 77px;
 }
 
 /* ITEM 3 */
 
 .carousel-indicators-wrap ol > li.item-3{
     background: url('../images/our_work/normal_step3.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 58px;
 }
 
 .carousel-indicators-wrap ol > li.item-3:hover {
     background: url('../images/our_work/hover_step3.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 58px;
 }
 
 .carousel-indicators-wrap ol > li.item-3.active {
     background: url('../images/our_work/activ_step3.png') no-repeat;
+    background-position-x: center;
     border: none;
     border-radius: 0;
     height: 90px;
-    width: 52px;
+    width: 58px;
 }
 
 /* ITEM 4 */
 
 .carousel-indicators-wrap ol > li.item-4{
     background: url('../images/our_work/normal_step4.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 88px;
 }
 
 .carousel-indicators-wrap ol > li.item-4:hover {
     background: url('../images/our_work/hover_step4.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 88px;
 }
 
 .carousel-indicators-wrap ol > li.item-4.active {
     background: url('../images/our_work/activ_step4.png') no-repeat;
+    background-position-x: center;
     border: none;
     border-radius: 0;
     height: 90px;
-    width: 52px;
+    width: 88px;
 }
 
 /* ITEM 5 */
 
 .carousel-indicators-wrap ol > li.item-5{
     background: url('../images/our_work/normal_step5.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 56px;
 }
 
 .carousel-indicators-wrap ol > li.item-5:hover {
     background: url('../images/our_work/hover_step5.png') no-repeat;
+    background-position-x: center;
+    height: 90px;
+    width: 56px;
 }
 
 .carousel-indicators-wrap ol > li.item-5.active {
     background: url('../images/our_work/activ_step5.png') no-repeat;
+    background-position-x: center;
     border: none;
     border-radius: 0;
-    height: 90px;
-    width: 52px;
+    height: 56px;
+    width: 56px;
 }
 
 /*===========================================adaptive=================================*/
@@ -249,9 +284,10 @@
 }
 
 .switch ol > li span {
-    position: absolute;
+
     top: 100px;
     text-transform: uppercase;
+    position: relative;
 }
 
 .switch ol > li span {
@@ -321,10 +357,13 @@
 .switch li.ident-3:hover > span {
     border-bottom: 2px solid #fbd302;
     color: #333333;
+    height: 45px;
 }
 
 .switch li.ident-3.active > span {
     border-bottom: 2px solid #fbd302;
+    height: 45px;
+
 }
 
 .switch li.ident-2 {
@@ -350,10 +389,12 @@
 .switch li.ident-2:hover > span {
     border-bottom: 2px solid #fbd302;
     color: #333333;
+    height: 45px;
 }
 
 .switch li.ident-2.active > span {
     border-bottom: 2px solid #fbd302;
+    height: 45px;
 }
 
 .switch li.ident-1 {
@@ -379,10 +420,12 @@
 .switch li.ident-1:hover > span {
     border-bottom: 2px solid #fbd302;
     color: #333333;
+    height: 45px;
 }
 
 .switch li.ident-1.active > span {
     border-bottom: 2px solid #fbd302;
+    height: 45px;
 }
 
 /*================================macbook=Scroll==================================*/
@@ -402,14 +445,14 @@
     right: 0;
     top: -11%;
     margin: 5% -11.3%;
-    background: #333;
+    /*background: #333;*/
 }
 
 /* Screenshot Hover Scroll Additions
 -------------------------------------------------------------- */
 
 .macbook .viewport {
-    transition: background-position 4s ease;
+    transition: background-position 3s ease;
     background-position: 0 0;
     background-size: 100% auto;
     overflow: hidden;
@@ -435,7 +478,7 @@
     right: 0;
     top: 18%;
     margin: 3% 25.2%;
-    background: #333;
+    /*background: #333;*/
 }
 
 
@@ -443,7 +486,7 @@
 -------------------------------------------------------------- */
 
 .ipad .viewport-ipad {
-    transition: background-position 3s ease;
+    transition: background-position 4s ease;
     background-position: 0 0;
     background-size: 100% auto;
     overflow: hidden;
@@ -471,7 +514,7 @@
     right: 0;
     top: 24.5%;
     margin: -2% 33%;
-    background: #333;
+    /*background: #333;*/
 }
 
 
@@ -479,7 +522,7 @@
 -------------------------------------------------------------- */
 
 .iphone .viewport-iphone {
-    transition: background-position 3s ease;
+    transition: background-position 4s ease;
     background-position: 0 0;
     background-size: 100% auto;
     overflow: hidden;
