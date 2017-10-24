@@ -1641,6 +1641,7 @@
         opacity: 1;
     }
 }
+
 .text-thirty_five {
     -webkit-animation-name: write35;
     animation-name: write35;
@@ -1664,6 +1665,7 @@
         opacity: 1;
     }
 }
+
 .text-thirty_six {
     -webkit-animation-name: write36;
     animation-name: write36;
@@ -2139,7 +2141,7 @@
     }
 }
 
-@keyframes write55 {
+@keyframes write56 {
     0%, 8.25% {
         opacity: 0;
     }
@@ -7928,7 +7930,7 @@
     }
 }
 
-@keyframes write304 {
+@keyframes write305 {
     0%, 46.5% {
         opacity: 0;
     }
@@ -8942,7 +8944,7 @@
     }
 }
 
-@keyframes write347 {
+@keyframes write348 {
     0%, 53.6% {
         opacity: 0;
     }
